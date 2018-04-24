@@ -26,6 +26,10 @@ module.exports = {
           options: { presets: ['es2015'] }
         }],
         exclude: /node_modules/
+      },
+      {
+        test: /\.less$/,
+        loaders: ['style-loader', 'css-loader', 'less-loader']
       }
     ]
   },
