@@ -2,10 +2,13 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Noodle's notes</title>
+    <title>Vue App Skeleton</title>
   </head>
   <body>
-    <h3 id="app">{{ message }}</h3>
+    <div id="app">
+      <h1>{{ message }}</h1>
+      <sub-heading v-bind:content="sub.content"></sub-heading>
+    </div>
     <script src="static/bundle.js"></script>
   </body>
 </html>

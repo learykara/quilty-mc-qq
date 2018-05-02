@@ -4,7 +4,8 @@
   "description": "Noodle's notes",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack --watch --mode=development"
+    "build:dev": "webpack --mode=development --watch",
+    "serve": "nodemon"
   },
   "repository": {
     "type": "git",
