@@ -1,4 +1,10 @@
-# noodles-notes
+# Vue app skeleton
+
+Uses:
+- Express
+- Vue
+- Webpack
+- LESS
 
 ## Build Setup
 
