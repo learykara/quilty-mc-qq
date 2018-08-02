@@ -4,10 +4,11 @@ var app = express();
 var port = process.env.PORT || 8080;
 
 app.use('/static', express.static(__dirname + '/public'));
+app.use('/static', express.static(__dirname + '/assets'));
 app.engine('html', require('ejs').renderFile);
 
 app.get('/', function (req, res) {
-  res.render('index.html');
+  res.render('index_temp.html');
 });
 
 var server = app.listen(port, function () {
