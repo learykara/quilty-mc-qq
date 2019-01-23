@@ -1,7 +1,7 @@
 {
-  "name": "noodles-notes",
+  "name": "quilty-mcquiltquilt",
   "version": "1.0.0",
-  "description": "Noodle's notes",
+  "description": "www.quiltymcquiltquilt.com",
   "main": "index.js",
   "scripts": {
     "build:dev": "webpack --mode=development --watch",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/learykara/noodles-notes.git"
+    "url": "git+https://github.com/learykara/quilty-mcquiltquilt.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/learykara/noodles-notes/issues"
+    "url": "https://github.com/learykara/quilty-mcquiltquilt/issues"
   },
-  "homepage": "https://github.com/learykara/noodles-notes#readme",
+  "homepage": "https://github.com/learykara/quilty-mcquiltquilt#readme",
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.4",
@@ -38,6 +38,7 @@
     "webpack-dev-server": "^3.1.3"
   },
   "dependencies": {
+    "ejs": "^2.6.1",
     "express": "^4.16.3",
     "vue": "^2.5.16"
   }
